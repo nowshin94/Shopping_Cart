@@ -1,0 +1,65 @@
+.gif,
+.head {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.head {
+  margin-top: 90px;
+  font-size: 24px;
+  font-family: 'Sansita Swashed', cursive;
+  font-style: italic;
+  color: purple;
+}
+
+body {
+  background-color: rgb(243, 239, 233);
+}
+
+.cart {
+  font-style: italic;
+  color: green;
+}
+.ft {
+  margin-top: 20px;
+  text-align: center;
+  color: purple;
+  font-family: 'Sansita Swashed', cursive;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.btn {
+  background-color: rebeccapurple;
+  color: white;
+}
+
+#clear_list {
+  background-color: rgb(168, 38, 168);
+  font-style: italic;
+}
+
+.ft {
+  margin-top: 20px;
+  background-color: rgb(241, 207, 219);
+  color: white;
+  font-size: 18px;
+  font-style: italic;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.prd-container {
+  position: relative;
+  transition: 0ms;
+  margin: auto;
+  margin-top: 20px;
+  background-color: plum;
+  font-size: 20px;
+  color: white;
+  font-family: 'Sansita Swashed', cursive;
+  font-style: italic;
+}
