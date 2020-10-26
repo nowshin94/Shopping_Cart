@@ -284,7 +284,7 @@ function removeProduct(e) {
 
 cart();
 
-window.onload = function () {
+location.onload = function () {
   let cart = localStorage.getItem('productCount');
   cart = JSON.parse(cart);
   if (cart != null) {
