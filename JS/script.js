@@ -32,7 +32,7 @@ for (let x = 0; x < product_cart.length; x++) {
 }
 
 function reload() {
-  window.location.reload();
+  location.reload();
 }
 
 function productCount(product) {
@@ -284,7 +284,7 @@ function removeProduct(e) {
 
 cart();
 
-location.onload = function () {
+window.onload = function () {
   let cart = localStorage.getItem('productCount');
   cart = JSON.parse(cart);
   if (cart != null) {
@@ -292,11 +292,11 @@ location.onload = function () {
   }
 };
 
-document.addEventListener('DOMContentLoaded', function (event) {
-  var scrollpos = localStorage.getItem('scrollpos');
-  if (scrollpos) window.scrollTo(0, scrollpos);
-});
+// document.addEventListener('DOMContentLoaded', function (event) {
+//   var scrollpos = localStorage.getItem('scrollpos');
+//   if (scrollpos) window.scrollTo(0, scrollpos);
+// });
 
-window.onbeforeunload = function (e) {
-  localStorage.setItem('scrollpos', window.scrollY);
-};
+// window.onbeforeunload = function (e) {
+//   localStorage.setItem('scrollpos', window.scrollY);
+// };
